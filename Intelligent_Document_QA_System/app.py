@@ -106,7 +106,6 @@ def create_vector_database(chunks, embedding_model):
 
     return index, embeddings
 
-
 # =========================================================
 # Function Name : search_relevant_chunks
 # Author        : Ankita Dnyanoba Shinde
@@ -130,7 +129,6 @@ def search_relevant_chunks(question, chunks, index, embedding_model, top_k=3):
             relevant_chunks.append(chunks[i])
 
     return relevant_chunks
-
 
 # =========================================================
 # Function Name : ask_llm
@@ -187,7 +185,6 @@ Answer:
     except Exception as e:
         return f"Error while communicating with LLM: {e}"
 
-
 # =========================================================
 # Function Name : show_project_flow
 # Author        : Ankita Dnyanoba Shinde
@@ -226,7 +223,6 @@ def show_project_flow():
     ```
     """)
 
-
 # =========================================================
 # Streamlit Web Application
 # Author        : Ankita Dnyanoba Shinde
@@ -238,7 +234,6 @@ st.set_page_config(
     page_icon="📘",
     layout="wide"
 )
-
 
 # ------------------ Custom Branding CSS ------------------
 
@@ -444,7 +439,6 @@ with st.sidebar:
     st.subheader("Ollama Command")
     st.code("ollama run llama3")
 
-
 # ------------------ Main Application ------------------
 
 tab1, tab2, tab3 = st.tabs([
@@ -538,7 +532,6 @@ with tab2:
     st.header("RAG Architecture Flow")
     show_project_flow()
 
-
 with tab3:
     st.header("Technical Concepts Used")
 
@@ -567,7 +560,6 @@ with tab3:
     ### 8. Prompt Engineering
     Context and question are combined into a structured prompt.
     """)
-
 
 # ------------------ Footer Section ------------------
 
