@@ -222,9 +222,3 @@ scipy
 
 Ankita Dnyanoba Shinde
 GitHub: [https://github.com/theankita](https://github.com/theankita)
-
-```
-
----
-```
-
