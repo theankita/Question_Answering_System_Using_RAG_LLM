@@ -69,9 +69,8 @@ Intelligent_Document_QA_System/
 ├── app.py
 ├── requirements.txt
 ├── Uploaded_PDFs/
-├── FAISS_Vector_DB/
-├── Embedding_Model/
-└── README.md
+│
+README.md
 ````
 ## Architecture Flow (RAG Pipeline)
 
