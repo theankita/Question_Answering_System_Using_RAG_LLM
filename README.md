@@ -209,13 +209,10 @@ scipy
 
 ## Future Improvements
 
-* Multi-document Q&A support
 * Chat history memory
 * Voice-based querying
 * Cloud deployment (AWS / Azure)
-* GPU acceleration for embeddings
-* Highlight answers inside PDF
-* Export chat results
+
 
 ## Author
 
