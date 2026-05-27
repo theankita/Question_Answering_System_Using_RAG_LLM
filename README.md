@@ -149,7 +149,7 @@ Strict prompts ensure the model:
 ### Step 1: Clone Repository
 
 ```bash
-git clone [https://github.com/your_username/your_repository](https://github.com/theankita/Question_Answering_System_Using_RAG_LLM).git
+git clone https://github.com/theankita/Question_Answering_System_Using_RAG_LLM.git
 ```
 
 ### Step 2: Create Virtual Environment
